@@ -1,12 +1,11 @@
 import streamlit as st
 import pandas as pd
-import pickle
-import joblib
-import seaborn as sns
-import matplotlib.pylot as plt
+import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Iris Dasboard App", layout="centered")
-st.sidebar.haeder("Dasboard")
+st.set_page_config(page_title="Aplikasi Tingkat Stres", layout="centered")
+st.sidebar.header("Main Menu")
 
-st.title("Selamat Datang di Aplikasi Proyek Data Mining")
-st.write("Ini adalah aplikasi Streamlit pertamaku")
+#Memberikan Judul dan Gambar yang menarik
+st.title("APLIKASI MENGUKUR TINGKAT STRES")
+st.image ("https://www.pelajarwajo.com/2023/04/06/cara-mengatasi-stres-akademik/")
+st.write ("Dibuat Oleh Kelompok 16")
