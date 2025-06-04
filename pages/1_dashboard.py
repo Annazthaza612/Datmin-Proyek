@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Aplikasi Tingkat Stres", layout="centered")
 st.sidebar.header("Dashboard")
 
-st.title("Halo, Selamat datang di aplikasi Pengukur Tingkat Stres Mahasiswa :smile:")
+st.title("Halo, Selamat datang di aplikasi Pengukur Tingkat Stres Mahasiswa 😄")
 st.write("Aplikasi ini untuk mengukur tingkat stres mahasiswa berdasarkan gaya hidup.")
 
 #Load Dataset
